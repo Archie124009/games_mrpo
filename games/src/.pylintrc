@@ -1,0 +1,4 @@
+[MESSAGES CONTROL]
+disable=print-statement
+max-line-length = 88
+ignore = C0114
