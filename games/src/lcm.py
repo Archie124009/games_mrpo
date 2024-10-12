@@ -4,7 +4,7 @@ import math
 def find_lcm(numbers):
     lcm = numbers[0]
     for num in numbers[1:]:
-        lcm = lcm * num // math.gcd(lcm, num)
+        lcm = math.lcm(lcm, num)
     return lcm
 
 def lcm_game():
